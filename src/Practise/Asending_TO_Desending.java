@@ -1,5 +1,8 @@
 package Practise;
 
+import java.sql.Array;
+import java.util.Arrays;
+
 public class Asending_TO_Desending
 {
 	public static void main(String[] args) 
@@ -20,14 +23,18 @@ public class Asending_TO_Desending
 				{
 					
 				}
-				
 			}
 		}
 	for(int x:a)
 	{
-		System.out.println(x);
-		
+		System.out.print(x+",");
 	}
 	
+	System.out.println();
+	for(int i = 0;i<a.length;i++)
+	{
+		System.out.println(a[i]);
+	}
+	System.out.println(Arrays.toString(a));
 	}
 }

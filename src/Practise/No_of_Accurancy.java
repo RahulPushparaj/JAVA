@@ -19,12 +19,12 @@ public class No_of_Accurancy
 	*/
 	public static void main(String[] args) 
 	{
-		int[] a = {1,2,1,6,4,3,5,4};
-		int e =3;
+		int[] a = {1,2,1,6,4,3,1,5,4};
+		//int e =1;
 		int count = 0;
 		for(int i = 0;i<a.length;i++)
 		{
-			if(a[i]==e) 
+			if(a[i]==1) 
 			{
 				count++;
 			}

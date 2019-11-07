@@ -1,5 +1,5 @@
 package Practise;
-
+/*
 public class Display_Duplicate_Array 
 {
 	public static void main(String[] args) 
@@ -21,7 +21,27 @@ public class Display_Duplicate_Array
 				}
 				if(count>1)
 					System.out.println(ele);
-			}
-		}
-	}
-}
+			}}}}
+*/
+public class Display_Duplicate_Array 
+{
+	public static void main(String[] args) 
+	{
+		int a[] = {9,2,8,1,6,8,4,3,5,8,9,4,9,5};
+		for(int i = 0;i < a.length;i++){
+			int count = 0;
+			int ele = a[i];
+			for(int j = i+1;j < a.length;j++){
+				
+				if(ele==a[j]){
+					count++;
+					a[j]=0;
+				}
+			}if(count>=1){
+				System.out.println(a[i]);
+			}}}}
+
+
+
+
+

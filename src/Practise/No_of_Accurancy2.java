@@ -52,7 +52,7 @@ public class No_of_Accurancy2
 	}
 	public void sub()
 	{
-		int[] a = {1,2,1,6,4,3,5,4,4,1,6};
+		int[] a = {1,1,6,4,3,5,4,4,1,6};
 		for(int i = 0;i<a.length;i++)
 		{
 			if (a[i]!=0)

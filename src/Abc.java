@@ -1,23 +1,19 @@
-
+class A
+{
+	public int a = 1;
+	private int b = 2;
+	protected int c = 3;
+	int d = 4;
+}
 public class Abc 
 {
+	
 	public static void main(String[] args)
 	{
-		int num = 123,sum=0,push=num;
-		while(num>0)
-		{
-			int rem=num%10;
-			sum=sum+rem*rem*rem;
-			num=num%10;
-		}
-		if(push==sum)
-		{
-			System.out.println("yes");
-		}
-		else
-		{
-			System.out.println("NO");
-		}
-		
+		A o = new A();
+		System.out.println(o.a);
+	//	System.out.println(o.b);
+		System.out.println(o.c);
+		System.out.println(o.d);
 	}
 }
